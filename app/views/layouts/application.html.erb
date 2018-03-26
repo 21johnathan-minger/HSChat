@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+
+    <!-- Title -->
+    <title>Bit.app The Best BitCoin Broker</title>
+
+    <!-- Favicon -->
+    <%= favicon_link_tag 'core-img/favicon.ico' %>
+    
+    <!-- Stylesheets -->
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    
+    <%= csrf_meta_tags %>
+  </head>
+
+  <body>
+    <!-- Menu Partials -->
+    <%= render 'layouts/navigation' %>
+    
+     <%= yield %>
+    
+    <!-- Footer Partials -->
+    <%= render 'layouts/footer' %>
+
+    <!-- Javascripts -->
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </body>
+</html>
